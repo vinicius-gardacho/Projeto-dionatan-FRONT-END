@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+h1{
+   text-align: center;
+
+}
+.carrossel {
+
+}
 footer{
     background-color: black;
     color: white;
