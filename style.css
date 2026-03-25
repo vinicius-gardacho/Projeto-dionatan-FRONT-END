@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #657895;
+}
+
 h1{
-   text-align: center;
+    text-align: center;
 
 }
 .carrossel {
