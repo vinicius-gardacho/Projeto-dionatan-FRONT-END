@@ -9,12 +9,37 @@ body{
 }
 
 h1{
-   text-align: center;
-   text-decoration: 
+    text-align: center;
+    text-decoration: underline;
 }
+
 .carrossel {
 
 }
+
+.apresentacao{
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 2rem;
+    padding: 20px;
+    columns: 2;
+}
+
+.texto{
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 600px;
+}
+
 footer{
     background-color: black;
     color: white;
