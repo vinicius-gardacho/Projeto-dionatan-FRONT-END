@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-    background-color: black;
+    background-color: #657895;
     padding: 10px;
     align-items: space-between;
 }
@@ -31,23 +31,25 @@ section{
     background-color: #1b1b1b;
     border-radius: 10px;
     margin: 20px;
-    padding: 2rem;
     padding: 20px;
-    columns: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .texto{
     max-width: 800px;
     margin: 0 auto;
     color: white;
-    font-size: 30px;
+    font-size: 1.25rem;
+    padding: 10px;
 }
 
 img{
     display: block;
     margin: 20px auto;
-    max-width: 100%;
     width: 600px;
+    padding: auto;
 }
 
 footer{
