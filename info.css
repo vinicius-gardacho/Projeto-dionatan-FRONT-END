@@ -21,6 +21,15 @@ textarea {
     animation: pulso 2.6s ease-in-out infinite;
 }
 
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 button {
     width: 150px;
     margin-top: 10px;
