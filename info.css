@@ -31,3 +31,40 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Tablets */
+
+@media (max-width: 768px) {
+    .car-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proposta {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    .car-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proposta {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
