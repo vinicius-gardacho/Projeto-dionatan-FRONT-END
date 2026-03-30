@@ -1,0 +1,70 @@
+.car-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.proposta {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tablets */
+
+@media (max-width: 768px) {
+    .car-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proposta {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    .car-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proposta {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
