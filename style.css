@@ -175,6 +175,11 @@ footer{
         font-size: 20px;
     }
 
+    section{
+        flex-direction: column;
+        text-align: center;
+    }
+
     .texto {
         font-size: 1rem;
     }
