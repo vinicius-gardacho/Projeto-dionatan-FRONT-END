@@ -63,7 +63,7 @@ h1, h2{
 
 @media (max-width: 768px) {
     .secao-carros {
-        flex-direction: column; /* empilha */
+        flex-direction: column; 
         text-align: center;
     }
 
