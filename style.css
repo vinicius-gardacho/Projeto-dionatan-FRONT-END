@@ -45,29 +45,32 @@ h1, h2{
     margin: 20px 0;
 }
 
+/* supondo que texto + imagem estão dentro de um container */
 .secao-carros {
-    text-align: center;
-    padding: 40px;
-    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.secao-carros h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.secao-carros p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
+/* garante que a imagem não ultrapasse */
 .secao-carros img {
-    width: 80%;
+    width: 100%;
     max-width: 600px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    height: auto;
 }
 
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .secao-carros {
+        flex-direction: column; /* empilha */
+        text-align: center;
+    }
+
+    .secao-carros img {
+        max-width: 100%;
+    }
+}
 
 .btn-carros {
     display: block; 
